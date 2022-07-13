@@ -1,0 +1,1243 @@
+@font-face {
+  font-family: Bahij-bold;
+  src: url("../ArbFonts/ArbFONTS-Bahij_TheSansArabic-Bold.ttf");
+}
+@font-face {
+  font-family: Bahij-normal;
+  src: url("../ArbFonts/alfont_com_Bahij_TheSansArabic-Plain.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  direction: rtl;
+  font-family: 'Tajawal', sans-serif;
+}
+/* navbar */
+.navbar > .container > img {
+  display: none;
+}
+.navbar-nav {
+  width: 100%;
+  font-weight: bold;
+  font-family: 'Tajawal', sans-serif;
+ 
+}
+.navbar-nav img {
+  height: 80px;
+  width: 300px;
+}
+.navbar-nav .navbar-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.navbar-nav .navbar-content .content .nav-item .nav-link{
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Tajawal', sans-serif;
+   color: #00223F;;
+}
+.navbar-nav .navbar-content .content .nav-item .active,
+.navbar-nav .navbar-content .content .nav-item .nav-link:hover {
+  color: #22aefb;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: bold;
+}
+
+.navbar-content .content {
+  display: flex;
+}
+.navbar-content .signup {
+  display: flex;
+
+}
+.navbar-content .signup button{
+  font-family: 'Tajawal', sans-serif;
+
+}
+.navbar-content .signup button {
+  color: #00223F;
+  border: none;
+  background-color: white;
+  width: 150px;
+  height: 50px;
+}
+.navbar-content .signup .signup-btn {
+  background-color: #f6931d;
+  color: white;
+
+  border-radius: 10px;
+}
+/* ----------end navbar------------------- */
+
+/* ------start landing section -----*/
+.landing {
+  min-height: 100vh;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.landing > img {
+  width: 97%;
+}
+.landing .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: bold;
+}
+.landing .text .content {
+  position: absolute;
+  top: 17%;
+  padding: 15px;
+  color: #efefef;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: bold;
+}
+.landing .text .content p{
+    font-weight:100;
+    color: #EFEFEF;
+}
+/* page howus */
+.landing .text .content-howUs {
+  position: absolute;
+  top: 20%;
+  right: 42%;
+  color: #efefef;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: bold;
+}
+
+.btn-white {
+  position: relative;
+  background-color: #f6931d;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  width: 170px;
+  height: 50px;
+  font-size: 15px;
+  background-image: radial-gradient(#22aefb, #22aefb, #22aefb);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s, color 0.5s;
+  background-size: 0% 0%;
+
+}
+.btn-white:hover {
+  background-size: 100% 100%;
+}
+.oversection {
+  transform: translateY(-18rem);
+  box-shadow: 0px 15px 20px #bcbcbc1a;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: bold;
+  border-radius: 20px;
+}
+.oversection .oversectionone {
+  background-color: #fff;
+  width: 550px;
+  height: 80px;
+  border-radius: 20px 20px 0 0;
+}
+.oversection .oversectiontwo {
+  background-color: #fff;
+  border-radius: 20px 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.oversection .oversectionone .nav-tabs {
+  --bs-nav-tabs-border-width: 0;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+.oversection .oversectionone .nav-tabs .nav-link {
+  align-items: center;
+  color: black;
+  border: 0;
+  background-color: #efefef;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  /* width: 150px; */
+  height: 50px;
+}
+.oversection .oversectionone .nav-tabs .nav-link.active {
+  background-color: #22aefb;
+  color: white;
+}
+.oversection .bg-icon {
+  position: absolute;
+  top: 30%;
+  right: 1%;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #f1f5f6;
+  width: 60px;
+  height: 60px;
+}
+.oversection .oversectiontwo .tab-pane .icon {
+  position: absolute;
+  top: 30%;
+  right: 28%;
+  cursor: pointer;
+  width: 25px;
+}
+.oversection .oversectiontwo .tab-pane .sec-group{
+  width: 20%;
+}
+.oversection .oversectiontwo .tab-pane input {
+  height: 120px;
+  width: 100%;
+  border-radius: 15px;
+  border: none;
+  background-color: #fafcfb;
+  border: 2px solid #f6f9f8;
+}
+.oversection .oversectiontwo .tab-pane p {
+  position: absolute;
+  display: inline;
+  top: 42%;
+  right: 8%;
+  color: #97a1ac;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: bold;
+}
+.oversection .oversectiontwo .tab-pane .group {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.oversection .oversectiontwo .tab-pane .group p {
+  position: absolute;
+  display: inline;
+  top: 45%;
+  right: 35%;
+  color: #97a1ac;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 12px;
+}
+/* -------end landing section ----------*/
+/* start best  */
+
+.swiper {
+  margin-top: -150px;
+}
+.swiper .card {
+  border-radius: 25px;
+  overflow: hidden;
+  padding: 0px;
+}
+.swiper .card:hover {
+  transform: translateY(-3px);
+}
+.swiper .swiper-slide .card-body {
+  padding: 0;
+}
+.swiper .swiper-slide .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #000;
+}
+.swiper .swiper-slide .card:hover .overlay {
+  opacity: 0.3;
+}
+
+.swiper .swiper-slide .card img {
+  width: 100%;
+  transition: all 0.5s;
+}
+.swiper .swiper-slide .card:hover img {
+  transform: scale(1.1);
+}
+.swiper .swiper-slide .card .clip {
+  background-color: white;
+  padding: 10px;
+  width: 75%;
+  border-radius: 50px 0 0;
+  margin-bottom: 0px !important;
+  z-index: 111111;
+}
+.swiper .swiper-slide .card .parent .chiled {
+  z-index: 0;
+  width: 37%;
+  /* padding: 5px; */
+  padding-right: 50px;
+  margin-bottom: 0px !important;
+  color: #fff;
+  background-color: #00223f86;
+}
+.swiper .swiper-slide .card .contant-best div ul li i {
+  color: #f6931d;
+}
+/* end best */
+/* -------start tourism section ----------*/
+.tourism {
+  margin-top: -10rem;
+}
+.tourism h3 {
+    font-family: 'Tajawal', sans-serif;
+  font-weight: bold;
+}
+.tourism .tourism-country {
+  display: flex;
+}
+.tourism .card-img-overlay {
+  width: 90%;
+  margin: auto;
+}
+.tourism .card-img-overlay h5 {
+  border-bottom: 3px solid #fff;
+  width: 12%;
+  text-align: center;
+}
+.tourism .card-img-overlay .paragraph {
+  display: none;
+}
+.tourism .tourism-country .card:hover .paragraph {
+  display: inline;
+}
+.tourism .tourism-country p {
+  background-color: #22b5fc;
+  border-radius: 20px 0 0 20px;
+  margin-right: -16px;
+}
+.tourism .tourism-country img {
+  width: 90%;
+  margin: auto;
+}
+/* -------end tourism section ----------*/
+/* -------start offer section ----------*/
+.offer {
+  background-color: #fcfcfc;
+}
+.card-offer {
+  display: flex;
+}
+.card-offer .card {
+  border: none;
+  width: 90%;
+  background-color: #fcfcfc;
+  transition: all 0.5s;
+}
+.card-offer .card:hover {
+  transform: translateY(-15px);
+}
+.card-offer .card button {
+  position: absolute;
+  width: 90px;
+  height: 35px;
+  top: -20px;
+  right: 38px;
+  border-radius: 26px;
+  background-color: #f6931d;
+  color: #fff;
+  border: none;
+}
+.card-offer .card img {
+  width: 90%;
+  margin: auto;
+}
+.card-offer .card .card-title {
+  display: flex;
+  justify-content: space-between;
+}
+.card-offer .card .card-title p {
+  color: #22aefb;
+  padding-left: 20px;
+}
+
+.card-offer .card .card-text {
+  width: 335px;
+  color: #97a1ac;
+}
+.card-offer .card .card-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-top: 15px;
+}
+.card-offer .card .card-foot i {
+  width: 35px;
+  height: 35px;
+  padding-top: 6px;
+  background-color: #fff;
+  color: #22aefb;
+  border-radius: 50%;
+}
+
+.card-foot .btn {
+  padding-top: 10px;
+  position: relative;
+  background-color: #00223f;
+  color: #fff;
+  width: 190px;
+  height: 50px;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-image: radial-gradient(#22aefb, #22aefb, #22aefb);
+  background-repeat: no-repeat;
+  transition: background-size 0.5s, color 0.5s;
+  background-size: 0% 0%;
+}
+.card-foot .btn:hover {
+  background-size: 100% 100%;
+}
+
+/* -------end offer section ----------*/
+/* start Advertising section */
+.Advertising {
+  margin-top: 12rem;
+  margin-bottom: 5rem;
+}
+.Advertising-section {
+  background-image: url(../images/Mask\ Group\ 5.png);
+  min-height: 60vh;
+  position: relative;
+}
+.Advertising-section .Advertisting-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 50%;
+  border-radius: 20px;
+  background-image: linear-gradient(#0e87c9, #21a6ef);
+}
+.Advertising-section .Advertisting-between {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.Advertising-section .Advertisting-between .img-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 100%;
+}
+.Advertising-section .Advertisting-between .text-content {
+  padding-right: 70px;
+  /* padding-top: 70px; */
+  width: 45%;
+  margin: auto;
+}
+
+.Advertising-section .Advertisting-between .text-content p{
+  margin-top: 18px;
+  margin-bottom: 24px;
+}
+.Advertising-section .Advertisting-between .text-content h3{
+  font-weight: bold;
+}
+.Advertising-section .Advertisting-between .img-content {
+  text-align: end;
+}
+/* end Advertising section */
+/* start trips section */
+.trips .title-border {
+  border-radius: 10px;
+  padding: 32px ;
+  box-shadow: 0px 5px 15px #B7B7B71A;
+}
+.trips .group-title {
+  display: flex;
+  justify-content: space-between;
+  width: 260px;
+}
+.trips .paragraph {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.trips .paragraph p{
+  margin-bottom: 0px !important;
+}
+.trips .card-foot{
+  padding-bottom: 40px;
+}
+/* end trips section  */
+/* start the best section */
+.best {
+  background-color: #efefef;
+}
+.best .best-section {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 40px;
+
+}
+.best .best-section button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #21a6ef;
+  border: none;
+  text-align: center;
+  transform: translate(-85px, -30px);
+}
+.best .first-place img,
+.best .second-place img{
+  width: 90%;
+}
+
+/* end the best section */
+/* start client section */
+.rev-client .card {
+  width: 350px;
+  background-color: #fcfcfc;
+  border: none;
+}
+
+.rev-client .carousel-control-next-icon {
+  background-image: url(../images/Icon\ ionic-ios-arrow-dropright-circle.png);
+}
+.rev-client .carousel-control-prev-icon {
+  background-image: url(../images/Icon\ ionic-ios-arrow-dropleft-circle\ .png);
+}
+.rev-client .carousel-item .card .card-body p {
+  color: #f6931d;
+}
+.rev-client .carousel-control-prev {
+  left: -6%;
+}
+.rev-client .carousel-control-next {
+  right: -6%;
+}
+
+/* end client section */
+/* start footer */
+.footer {
+  background-image: url(../images/Group\ 6759.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer h4 {
+  color: #f6931d;
+}
+.footer ul li {
+  margin-top: 20px;
+}
+.footer .row p {
+  color: #f6931d;
+}
+.footer .final span {
+  color: #f6931d;
+}
+
+.footer .social {
+  padding: 8px;
+  padding-bottom: 6px;
+  border-radius: 9px;
+  border: 1px solid #f6931d;
+}
+.footer .social:hover {
+  color: #fff;
+  background-color: #f6931d;
+}
+/* end footer */
+/* services page */
+.services .row .bg-image-1 {
+  border-radius: 9px;
+  background-color: #fbc98e;
+  text-align: center;
+}
+.services .row .bg-image-2 {
+  border-radius: 9px;
+  background-color: #91d7fd;
+  text-align: center;
+}
+.services .row .bg-image-3 {
+  border-radius: 9px;
+  background-color: #80919f;
+  text-align: center;
+}
+.services .row .hover-div-1,
+.services .row .hover-div-2,
+.services .row .hover-div-2 {
+  transition: all 0.3s ease-in-out;
+}
+
+.services .row .hover-div-1:hover img,
+.services .row .hover-div-2:hover img,
+.services .row .hover-div-3:hover img {
+  transform: translate(5px, 15px);
+}
+.services .row .hover-div-1,
+.services .row .hover-div-2,
+.services .row .hover-div-3 {
+  margin-bottom: 10px;
+  z-index: 11;
+}
+.services .row .hover-div-1:hover {
+  background-color: #fbc98e;
+  border-radius: 10px;
+}
+.services .row .hover-div-2:hover {
+  background-color: #91d7fd;
+  border-radius: 10px;
+}
+.services .row .hover-div-3:hover {
+  background-color: #80919f;
+  border-radius: 10px;
+}
+/* hotel page */
+.hotel .row .bestest {
+  z-index: 111;
+}
+.hotel .choose-yourbest::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 33px;
+  border-radius: 9px;
+  background-color: #22aefb;
+}
+
+input[type="radio"] {
+  /* remove standard background appearance... */
+  appearance: none;
+  /* create custom radio button appearance */
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  padding: 3px;
+  background-clip: content-box;
+  border: 1px solid #f6931d;
+  border-radius: 50%;
+  margin-right: 0;
+}
+input[type="radio"]:checked {
+  border: 5px solid #f6931d;
+  background-color: #fff;
+}
+.hotel .search {
+  background-color: #f5f5f5;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hotel .search .search-input {
+  padding: 8px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+}
+.hotel .best-hotel button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #21a6ef;
+  border: none;
+  text-align: center;
+}
+/* offer page */
+.offeres {
+  background-color: #fff;
+}
+.offeres .card {
+  background-color: #fff;
+}
+/* offer detail */
+
+.offeres-details .card-date {
+  background-color: #fcfcfc;
+  border-radius: 9px;
+}
+.offeres-details .card-date .date-entery input {
+  border: 1px solid #f6f9f8;
+  background-color: transparent;
+}
+.offeres-details .imag-and-icon i {
+  background-color: #fff;
+  color: #0e87c9;
+  padding: 10px;
+  padding-bottom: 1px;
+  border-radius: 50%;
+  right: 65%;
+  top: 2%;
+}
+.order-payed {
+  background-color: #fcfcfc;
+}
+
+.data-topay input,
+.expire input {
+  padding: 10px;
+  border: none;
+  width: 100%;
+  background-color: #f9f9f9;
+  border-radius: 7px;
+}
+.landing .text .recervies {
+  right: 38%;
+  top: 20%;
+}
+/* bestest page */
+
+.swiper .swiper-slider .card-body {
+  padding: 0;
+}
+.swiper .swiper-slider .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #000;
+}
+.swiper .swiper-slider .card:hover .overlay {
+  opacity: 0.3;
+}
+
+.swiper .swiper-slider .card img {
+  width: 100%;
+  transition: all 0.5s;
+}
+.swiper .swiper-slider .card:hover img {
+  transform: scale(1.1);
+}
+.swiper .swiper-slider .card .clip {
+  background-color: white;
+  padding: 10px;
+  width: 75%;
+  border-radius: 50px 0 0;
+  margin-bottom: 0px !important;
+  z-index: 111111;
+}
+.swiper .swiper-slider .card .parent .chiled {
+  z-index: 0;
+  width: 37%;
+  padding-right: 50px;
+  margin-bottom: 0px !important;
+  color: #fff;
+  background-color: #00223f86;
+}
+.swiper .swiper-slider .card .contant-best div ul li i {
+  color: #f6931d;
+}
+/* contact page */
+.trip-detail .social {
+  color: #f6931d;
+}
+.trip-detail .social {
+  padding: 8px;
+  padding-bottom: 6px;
+  border-radius: 9px;
+  border: 1px solid #f6931d;
+}
+.trip-detail .social:hover {
+  color: #fff;
+  background-color: #f6931d;
+}
+/* contact us */
+.formik input,
+.formik textarea {
+  background-color: #fcfcfc;
+}
+/* sign in */
+.form-sign {
+  width: 65%;
+  padding: 35px;
+  border-radius: 9px;
+  margin: auto;
+  box-shadow: -25px 25px 50px #0000000d;
+}
+.form-sign input {
+  background-color: #fafcfb;
+  border: none;
+  padding: 10px;
+}
+/* profile */
+.profile {
+  padding-bottom: 100px;
+}
+.profile .nav,
+.profile .tab-content {
+  z-index: 111;
+}
+.profile .nav button {
+  width: 200px;
+}
+.profile .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #22aefb;
+}
+.profile .nav-pills .nav-link {
+  background: #f9f9f9;
+  border-radius: 9px;
+}
+.profile .nav-link {
+  color: #585858;
+}
+.profile input {
+  background-color: #fafcfb;
+  border: none;
+}
+.profile .img-person {
+  border-radius: 50%;
+  color: #97a1ac;
+  padding: 60px;
+}
+/* ---------------media------------------ */
+
+@media (max-width: 1399.98px) {
+  .card-offer .card button {
+    width: 75px;
+    height: 30px;
+    top: -20px;
+    right: 33px !important;
+  }
+  .hotel .best-hotel img {
+    width: 80%;
+  }
+  .offeres-details .imag-and-icon i {
+    right: 64%;
+  }
+}
+@media (max-width: 1199.98px) {
+  .navbar-nav img {
+    width: 170px;
+  }
+  .services .row .bg-image-1,
+  .services .row .bg-image-2,
+  .services .row .bg-image-3 {
+    width: 40% !important;
+  }
+  .swiper .swiper-slide .card .parent .chiled {
+    font-size: 10px;
+    padding-right: 40px;
+  }
+  .swiper .swiper-slide .contant-best div,
+  .swiper .swiper-slider .contant-best div {
+    flex-direction: column;
+  }
+  .swiper .swiper-slide .contant-best div ul,
+  .swiper .swiper-slider .contant-best div ul {
+    margin-bottom: 5px;
+  }
+  .swiper .swiper-slider .card .parent .chiled {
+    font-size: 10px;
+    text-align: center;
+    padding-right: 12px;
+  }
+
+  .tourism .card-img-overlay h5 {
+    width: 30% !important;
+  }
+  .card-offer .card {
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .card-offer .card button {
+    width: 22%;
+    height: 25px;
+    top: -17px;
+    right: 13px !important;
+  }
+  .card-offer .card img {
+    width: 100%;
+  }
+  .card-offer .card .card-text {
+    width: 100%;
+  }
+  .card-offer .card .card-title {
+    flex-direction: column;
+  }
+  .services,
+  .hotel,
+  .offeres,
+  .offeres-details,
+  .swiper-fav,
+  .trip-detail,
+  .profile {
+    margin-top: -22rem !important;
+  }
+  .offeres-details .imag-and-icon i {
+    right: 63%;
+  }
+  .imag-and-icon .payinsmall {
+    flex-direction: column !important;
+  }
+  .trips .title-border {
+    padding: 18px;
+  }
+}
+@media (max-width: 991.98px) {
+  .navbar-toggler {
+    border: 1px solid #22b0fb;
+    color: #22b0fb;
+  }
+  .navbar > .container > img {
+    display: block;
+    width: 200px;
+  }
+  .navbar-nav img {
+    display: none;
+  }
+  .navbar-nav .navbar-content {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navbar-nav .navbar-content .content .nav-item {
+    padding-right: 10px;
+  }
+  .navbar-content .content,
+  .navbar-content .signup {
+    flex-direction: column;
+  }
+  .landing .text .content-howUs {
+    top: 5%;
+    right: 31%;
+  }
+  .landing .text .recervies {
+    right: 35%;
+  }
+
+  .oversection {
+    transform: translateY(-48%);
+  }
+  .oversection .oversectiontwo .tab-pane p {
+    right: 12%;
+  }
+  .swiper {
+    display: none;
+  }
+  .swiper-fav {
+    display: flex !important;
+  }
+  .tourism {
+    margin-top: -20rem !important;
+  }
+  .services,
+  .hotel,
+  .offeres,
+  .offeres-details,
+  .swiper-fav,
+  .trip-detail,
+  .profile {
+    margin-top: -28rem !important;
+  }
+  .offeres-details .card-date h5 {
+    font-size: 14px;
+  }
+  .offeres-details .card-date .card-foot .btn {
+    width: 140px !important;
+  }
+  .services .row .bg-image-1,
+  .services .row .bg-image-2,
+  .services .row .bg-image-3 {
+    width: 25% !important;
+  }
+  .tourism .tourism-country p {
+    width: 115px !important;
+    padding: 0 !important;
+    margin-top: 0.5rem !important;
+  }
+  .tourism .card-img-overlay h5 {
+    width: 45% !important;
+  }
+  .card-offer .card button {
+    width: 48px;
+    height: 22px;
+    top: -15px;
+    right: 9px !important;
+  }
+  .profile .tab-content .tab-pane{
+    width: 100% !important;
+  }
+  .profile .card-offer .card {
+    padding-bottom: 40px;
+  }
+  .profile .card-offer .card button {
+    width: 22%;
+    height: 25px;
+    top: -16px;
+    right: 13px !important;
+  }
+  .profile .card-offer {
+    flex-direction: column;
+  }
+  .profile .card-offer .card .card-foot i {
+    display: flex;
+  }
+  .card-offer .card .card-foot i {
+    display: none;
+  }
+  .trips .group-title {
+    width: 180px;
+    flex-direction: column;
+  }
+  .trips .paragraph,
+  .trips .group-title {
+    padding: 0 10px;
+  }
+  .trips .row .position-relative {
+    margin-bottom: 5rem;
+  }
+  .best .best-section .second-place {
+    display: none;
+  }
+  .best .best-section .first-place .position-relative {
+    height: 100%;
+  }
+  .best .best-section .first-place img {
+    height: 100%;
+    width: 100% !important;
+  }
+  .rev-client .carousel-item .card {
+    margin-bottom: 10px;
+  }
+  .rev-client p:first-of-type{
+    width: 75% !important;
+  } 
+  .rev-client .carousel-control-prev {
+    left: 0%;
+  }
+  .rev-client .carousel-control-next {
+    right: 0%;
+  }
+  .offeres-details .imag-and-icon i {
+    right: 61%;
+  }
+  .form-sign {
+    width: 90%;
+    padding: 20px;
+    margin-top: 0px !important;
+  }
+  .profile .tab-content {
+    width: 100% !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .landing .text .content {top:8%}
+  .landing .text .content p{
+    display: none;
+  }
+  .landing .text .recervies {
+    right: 27%;
+  }
+  .oversection .oversectionone {
+    width: 100%;
+  }
+  .oversection {
+    transform: translateY(-38%);
+  }
+  .visited {
+    margin-top: -31rem !important;
+  }
+
+  .services .first-para {
+    width: 100% !important;
+  }
+  .tourism .card-img-overlay h5 {
+    width: 25% !important;
+  }
+  .oversection .oversectiontwo .tab-pane p {
+    right: 20%;
+  }
+  .oversection .oversectiontwo .tab-pane .group .sec-group {
+    width: 100%;
+  }
+  .tourism {
+    text-align: center;
+    margin-top: -20rem !important;
+  }
+
+  .tourism .tourism-country img {
+    margin-bottom: 10px;
+    height: 250px !important;
+  }
+  .oversection .oversectiontwo .tab-pane input {
+    width: 100%;
+  }
+
+  .tourism .tourism-country {
+    flex-direction: column;
+    margin-bottom: 0 !important;
+  }
+
+  .tourism .tourism-country p {
+    width: 50% !important;
+    padding: 0 !important;
+    margin-top: 1.5rem !important;
+  }
+  .card-offer {
+    flex-wrap: wrap;
+  }
+  .card-offer .card {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .card-offer .card button {
+    width: 100px;
+    right: 28px;
+    height: 35px;
+    top: -20px;
+  }
+  .profile .nav, .profile .tab-content {
+    margin-left: 0px !important;
+}
+  .Advertising {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .Advertising-section .Advertisting-between .img-content {
+    display: none;
+  }
+  .Advertising-section .Advertisting-between {
+    align-items: center;
+  }
+  .Advertising-section .Advertisting-between .text-content {
+    text-align: center;
+    padding: 0;
+  }
+  .Advertising-section {
+    min-height: 60vh;
+  }
+
+  .best .best-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
+  .best .best-section .best-paragraph > p {
+    width: 100% !important;
+  }
+  .best .best-section div {
+    width: 100% !important;
+    margin-bottom: 50px;
+  }
+  .hotel .best-hotel button {
+    transform: translate(-50px);
+  }
+  .offeres-details .imag-and-icon i {
+    right: 90%;
+  }
+  .img-form-sign {
+    display: none;
+  }
+  .form-sign {
+    width: 90%;
+    padding: 15px;
+  }
+  .trips .group-title {
+    width: 240px;
+
+  }
+  .trips .paragraph,
+  .trips .group-title {
+    padding: 0 25px;
+  }
+}
+@media (max-width: 575.98px) {
+  .card-offer .card button ,
+  .profile .card-offer .card button {
+    right: 5% !important;
+    width: 22%;
+    height: 6%;
+    top: -3.5%;
+}
+  .landing .text .recervies {
+    right: 23%;
+  }
+  .offeres-indetail .card-offer .card button {
+    right: 20px;
+  }
+  .offeres-details .card-date {
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  .offeres-details .card-date h5 {
+    font-size: large;
+    padding-bottom: 10px;
+  }
+
+  .offeres-details .card-date .date-entery {
+    padding: 10px;
+  }
+  .services {
+    margin-top: -33rem !important;
+  }
+  .swiper-fav .card {
+    margin: auto;
+    width: 75%;
+  }
+  .st-logo {
+    width: 70%;
+  }
+  .profile .box {
+    flex-direction: column;
+    align-items: center !important;
+  }
+  .profile .button-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .profile .tab-content {
+    margin-right: 0rem !important;
+  }
+  .profile .nav {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    width: 100%;
+  }
+  .profile .nav button {
+    width: 25%;
+    text-align: center;
+    padding: 6px !important;
+  }
+  .profile .img-person {
+    width: 35%;
+    margin: auto;
+    padding: 0px !important;
+    padding-top: 15px !important;
+    padding-bottom: 25px !important;
+  }
+}
