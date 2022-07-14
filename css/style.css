@@ -185,8 +185,8 @@ body {
   /* width: 150px; */
   height: 50px;
   font-weight: 500;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 16px;
+    padding-left: 16px;
 }
 .oversection .oversectionone .nav-tabs .nav-link.active {
   background-color: #22aefb;
@@ -879,6 +879,7 @@ input[type="radio"]:checked {
 .tab-pane .card-text{
   color: #97A1AC;
 }
+
 /* ---------------media------------------ */
 
 @media (max-width: 1399.98px) {
@@ -960,7 +961,7 @@ input[type="radio"]:checked {
   .trips .title-border {
     padding: 18px;
   }
-  .footer img{
+  .footer .logo{
     width: 90% !important;
   }
   .form-sign {
@@ -1004,6 +1005,12 @@ input[type="radio"]:checked {
   .oversection .oversectiontwo .tab-pane p {
     right: 12%;
   }
+  .oversection .oversectiontwo .tab-pane .group .sec-group {
+    width: 100%;
+}
+.oversection .oversectiontwo .tab-pane .group p {
+  right: 30%;
+}
   .swiper {
     display: none;
   }
@@ -1124,7 +1131,7 @@ input[type="radio"]:checked {
   }
 }
 @media (max-width: 767.98px) {
-  .landing .text .content {top:8%}
+  .landing .text .content {top:6%}
   .landing .text .content p{
     display: none;
   }
@@ -1148,7 +1155,7 @@ input[type="radio"]:checked {
     width: 25% !important;
   }
   .oversection .oversectiontwo .tab-pane p {
-    right: 20%;
+    right: 27%;
   }
   .oversection .oversectiontwo .tab-pane .group .sec-group {
     width: 100%;
@@ -1259,6 +1266,13 @@ input[type="radio"]:checked {
   .landing .text .recervies {
     right: 23%;
   }
+  .content h3{
+    padding-bottom: 0px !important;
+  }
+  .content .btn-white {
+    width: 150px;
+    height: 40px;
+}
   .offeres-indetail .card-offer .card button {
     right: 20px;
   }
@@ -1314,4 +1328,7 @@ input[type="radio"]:checked {
     padding-top: 15px !important;
     padding-bottom: 25px !important;
   }
+  .Advertising-section .Advertisting-between .text-content {
+
+    width: 70%;}
 }
