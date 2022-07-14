@@ -1063,7 +1063,7 @@ input[type="radio"]:checked {
   .services .row .bg-image-1,
   .services .row .bg-image-2,
   .services .row .bg-image-3 {
-    width: 25% !important;
+    width: 35% !important;
   }
   .tourism .tourism-country p {
     width: 115px !important;
@@ -1371,6 +1371,9 @@ input[type="radio"]:checked {
   .oversection {
     transform: translateY(-50%);
   }
+  .landing .text .content-howUs {
+    top: 2%;
+    right: 25%;}
 }
 
 
