@@ -1374,6 +1374,14 @@ input[type="radio"]:checked {
   .landing .text .content-howUs {
     top: 2%;
     right: 25%;}
+    .hotel,
+  .offeres,
+  .offeres-details,
+  .trip-detail,
+  .profile,
+  .trips {
+    margin-top: -37rem !important;
+  }
 }
 
 
