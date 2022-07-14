@@ -38,10 +38,11 @@ body {
 
 }
 .navbar-nav .navbar-content .content .nav-item .nav-link{
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
     font-family: 'Tajawal', sans-serif;
-   color: #00223F;;
+   color: #00223F;
+   font-weight: 500;
 }
 .navbar-nav .navbar-content .content .nav-item .active,
 .navbar-nav .navbar-content .content .nav-item .nav-link:hover {
@@ -183,10 +184,14 @@ body {
   border-radius: 8px;
   /* width: 150px; */
   height: 50px;
+  font-weight: 500;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .oversection .oversectionone .nav-tabs .nav-link.active {
   background-color: #22aefb;
   color: white;
+  
 }
 .oversection .bg-icon {
   position: absolute;
@@ -306,7 +311,7 @@ body {
 }
 .tourism h3 {
     font-family: 'Tajawal', sans-serif;
-  font-weight: bold;
+    font-weight: 500;
 }
 .tourism .tourism-country {
   display: flex;
@@ -557,6 +562,9 @@ body {
 .footer .final span {
   color: #f6931d;
 }
+.footer .bg-foot{
+  background-color: #f6931d;
+}
 
 .footer .social {
   padding: 8px;
@@ -674,7 +682,11 @@ input[type="radio"]:checked {
   background-color: #fff;
 }
 /* offer detail */
-
+.offeres-details .card-body h5{
+  font-weight: bold;
+  padding-top: 30px !important ;
+  padding-bottom: 30px !important;
+}
 .offeres-details .card-date {
   background-color: #fcfcfc;
   border-radius: 9px;
@@ -696,9 +708,14 @@ input[type="radio"]:checked {
   background-color: #fcfcfc;
 }
 
+.data-topay label,
+.expire label{
+  font-weight: bold;
+}
 .data-topay input,
 .expire input {
-  padding: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
   border: none;
   width: 100%;
   background-color: #f9f9f9;
@@ -774,20 +791,51 @@ input[type="radio"]:checked {
 .formik textarea {
   background-color: #fcfcfc;
 }
+.formik input:focus{
+  outline: none;
+}
 /* sign in */
 .form-sign {
-  width: 65%;
+  width: 70%;
   padding: 35px;
   border-radius: 9px;
   margin: auto;
   box-shadow: -25px 25px 50px #0000000d;
+}
+.form-sign .form-label{
+  font-weight: 500;
+}
+
+.form-sign .span{
+  color: #f6931d;
+ 
 }
 .form-sign input {
   background-color: #fafcfb;
   border: none;
   padding: 10px;
 }
+.form-sign .size{
+  font-size: 14px;
+}
 /* profile */
+.prof{
+  position: absolute;
+  background: #fff;
+  border: 1px solid #f6931d;
+  border-radius: 9px;
+  padding: 5px;
+  z-index: 1;
+  display: none;
+}
+.signup:hover .prof{
+  display: inline-block;
+}
+.prof a{
+  text-decoration: none;
+  color: #97A1AC;
+  font-weight: 500;
+}
 .profile {
   padding-bottom: 100px;
 }
@@ -818,6 +866,19 @@ input[type="radio"]:checked {
   color: #97a1ac;
   padding: 60px;
 }
+.tab-content h3{
+  color: #f6931d;
+}
+.tab-content .form-label{
+   font-family: 'Tajawal', sans-serif;
+   font-weight: bold;
+}
+.tab-pane .card h4{
+  color: #f6931d;
+}
+.tab-pane .card-text{
+  color: #97A1AC;
+}
 /* ---------------media------------------ */
 
 @media (max-width: 1399.98px) {
@@ -833,8 +894,19 @@ input[type="radio"]:checked {
   .offeres-details .imag-and-icon i {
     right: 64%;
   }
+  .offeres-details .card-date {
+    padding-bottom: 120px !important;
+}
 }
 @media (max-width: 1199.98px) {
+  .navbar-nav .navbar-content .content .nav-item .nav-link{
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.oversection .oversectiontwo .tab-pane .group p {
+
+  right: 45%;}
   .navbar-nav img {
     width: 170px;
   }
@@ -843,23 +915,9 @@ input[type="radio"]:checked {
   .services .row .bg-image-3 {
     width: 40% !important;
   }
-  .swiper .swiper-slide .card .parent .chiled {
-    font-size: 10px;
-    padding-right: 40px;
-  }
-  .swiper .swiper-slide .contant-best div,
-  .swiper .swiper-slider .contant-best div {
-    flex-direction: column;
-  }
-  .swiper .swiper-slide .contant-best div ul,
-  .swiper .swiper-slider .contant-best div ul {
-    margin-bottom: 5px;
-  }
-  .swiper .swiper-slider .card .parent .chiled {
-    font-size: 10px;
-    text-align: center;
-    padding-right: 12px;
-  }
+.rev-client .hid-scren{
+  display: none;
+}
 
   .tourism .card-img-overlay h5 {
     width: 30% !important;
@@ -901,6 +959,12 @@ input[type="radio"]:checked {
   }
   .trips .title-border {
     padding: 18px;
+  }
+  .footer img{
+    width: 90% !important;
+  }
+  .form-sign {
+    width: 85%;
   }
 }
 @media (max-width: 991.98px) {
@@ -1025,6 +1089,9 @@ input[type="radio"]:checked {
     height: 100%;
     width: 100% !important;
   }
+  .rev-client .no-hidd{
+    display: none;
+  }
   .rev-client .carousel-item .card {
     margin-bottom: 10px;
   }
@@ -1039,6 +1106,13 @@ input[type="radio"]:checked {
   }
   .offeres-details .imag-and-icon i {
     right: 61%;
+  }
+  .offeres-details .expire{
+    flex-direction: column;
+  }
+
+  .offeres-details .expire div{
+    width: 100%;
   }
   .form-sign {
     width: 90%;
