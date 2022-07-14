@@ -1,18 +1,6 @@
-
-// const swiper = new Swiper('.swiper', {
-//     // Optional parameters
-//     loop: true,
-  
-//     // If we need pagination
-//     pagination: {
-//       el: '.swiper-pagination',
-//     },
-  
-//     // Navigation arrows
-//     navigation: {
-//       nextEl: '.swiper-button-next',
-//       prevEl: '.swiper-button-prev',
-//     },
-  
-  
-//   });
+let heart=document.querySelectorAll(".bi-heart");
+for (let i = 0; i < heart.length; i++) {
+    heart[i].addEventListener("click", function() {
+       heart[i].classList="bi bi-heart-fill"
+      });
+}

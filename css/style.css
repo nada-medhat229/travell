@@ -38,8 +38,8 @@ body {
 
 }
 .navbar-nav .navbar-content .content .nav-item .nav-link{
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 14px;
+    padding-left: 14px;
     font-family: 'Tajawal', sans-serif;
    color: #00223F;
    font-weight: 500;
@@ -168,6 +168,15 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.oversection .oversectiontwo .position-relative input:focus p{
+ display: none;
+}
+.oversection .oversectiontwo input:focus{
+  outline: none;
+  padding-right: 5rem;
+  z-index: 1;
+}
+
 .oversection .oversectionone .nav-tabs {
   --bs-nav-tabs-border-width: 0;
   justify-content: space-evenly;
@@ -202,6 +211,7 @@ body {
   background-color: #f1f5f6;
   width: 60px;
   height: 60px;
+  z-index: 0;
 }
 .oversection .oversectiontwo .tab-pane .icon {
   position: absolute;
@@ -218,8 +228,10 @@ body {
   width: 100%;
   border-radius: 15px;
   border: none;
+  padding-right: 75px;
   background-color: #fafcfb;
   border: 2px solid #f6f9f8;
+  color: #80919f;
 }
 .oversection .oversectiontwo .tab-pane p {
   position: absolute;
@@ -492,6 +504,9 @@ body {
 .trips .card-foot{
   padding-bottom: 40px;
 }
+.trips .paragraph i{
+  color: #22aefb;
+}
 /* end trips section  */
 /* start the best section */
 .best {
@@ -562,6 +577,7 @@ body {
 .footer .final span {
   color: #f6931d;
 }
+.trips .bg-foot,
 .footer .bg-foot{
   background-color: #f6931d;
 }
@@ -609,7 +625,9 @@ body {
 .services .row .hover-div-3 {
   margin-bottom: 10px;
   z-index: 11;
+  padding-bottom: 20px;
 }
+
 .services .row .hover-div-1:hover {
   background-color: #fbc98e;
   border-radius: 10px;
@@ -625,6 +643,9 @@ body {
 /* hotel page */
 .hotel .row .bestest {
   z-index: 111;
+}
+.hotel h3{
+  font-weight: 500;
 }
 .hotel .choose-yourbest::before {
   content: "";
@@ -791,8 +812,9 @@ input[type="radio"]:checked {
 .formik textarea {
   background-color: #fcfcfc;
 }
-.formik input:focus{
+.formik input:focus,.formik textarea:focus{
   outline: none;
+  padding: 20px;
 }
 /* sign in */
 .form-sign {
@@ -898,6 +920,14 @@ input[type="radio"]:checked {
   .offeres-details .card-date {
     padding-bottom: 120px !important;
 }
+.oversection .oversectiontwo .tab-pane .group p {
+  right: 38%;}
+  .footer .logo{
+    width: 85% !important;
+  }
+  .rev-client .hid-scren{
+    display: none;
+  }
 }
 @media (max-width: 1199.98px) {
   .navbar-nav .navbar-content .content .nav-item .nav-link{
@@ -906,7 +936,6 @@ input[type="radio"]:checked {
     font-size: 12px;
 }
 .oversection .oversectiontwo .tab-pane .group p {
-
   right: 45%;}
   .navbar-nav img {
     width: 170px;
@@ -916,9 +945,7 @@ input[type="radio"]:checked {
   .services .row .bg-image-3 {
     width: 40% !important;
   }
-.rev-client .hid-scren{
-  display: none;
-}
+
 
   .tourism .card-img-overlay h5 {
     width: 30% !important;
@@ -961,9 +988,7 @@ input[type="radio"]:checked {
   .trips .title-border {
     padding: 18px;
   }
-  .footer .logo{
-    width: 90% !important;
-  }
+  
   .form-sign {
     width: 85%;
   }
@@ -1009,7 +1034,7 @@ input[type="radio"]:checked {
     width: 100%;
 }
 .oversection .oversectiontwo .tab-pane .group p {
-  right: 30%;
+  right: 14%;
 }
   .swiper {
     display: none;
@@ -1018,7 +1043,7 @@ input[type="radio"]:checked {
     display: flex !important;
   }
   .tourism {
-    margin-top: -20rem !important;
+    margin-top: -25rem !important;
   }
   .services,
   .hotel,
@@ -1155,7 +1180,7 @@ input[type="radio"]:checked {
     width: 25% !important;
   }
   .oversection .oversectiontwo .tab-pane p {
-    right: 27%;
+    right: 17%;
   }
   .oversection .oversectiontwo .tab-pane .group .sec-group {
     width: 100%;
@@ -1254,6 +1279,9 @@ input[type="radio"]:checked {
   .trips .group-title {
     padding: 0 25px;
   }
+  .oversection .oversectiontwo .tab-pane .group p {
+    right: 20%;
+}
 }
 @media (max-width: 575.98px) {
   .card-offer .card button ,
@@ -1331,4 +1359,12 @@ input[type="radio"]:checked {
   .Advertising-section .Advertisting-between .text-content {
 
     width: 70%;}
+    .oversection .oversectiontwo .tab-pane p {
+      right: 25%;
+  }
+  .oversection .oversectiontwo .tab-pane .group p {
+    right: 29%;
 }
+}
+
+
