@@ -1167,7 +1167,7 @@ input[type="radio"]:checked {
     width: 100%;
   }
   .oversection {
-    transform: translateY(-42%);
+    transform: translateY(-45%);
   }
   .visited {
     margin-top: -31rem !important;
