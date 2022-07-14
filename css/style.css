@@ -651,7 +651,7 @@ body {
   content: "";
   position: absolute;
   width: 5px;
-  height: 33px;
+  height: 30px;
   border-radius: 9px;
   background-color: #22aefb;
 }
@@ -1052,7 +1052,7 @@ input[type="radio"]:checked {
   .swiper-fav,
   .trip-detail,
   .profile {
-    margin-top: -28rem !important;
+    margin-top: -30rem !important;
   }
   .offeres-details .card-date h5 {
     font-size: 14px;
@@ -1170,7 +1170,7 @@ input[type="radio"]:checked {
     transform: translateY(-45%);
   }
   .visited {
-    margin-top: -31rem !important;
+    margin-top: -35rem !important;
   }
 
   .services .first-para {
